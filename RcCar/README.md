@@ -105,10 +105,4 @@ void run(int time)
   delay(time * 100);
 }
 ```
-  
-```
-https://github.com/Azabell1993/azabell_Libaray
-```
-  
-링크를 통해 들어가시면 더 편리하게 라이브러리를 가져다가 쓸 수 있습니다. 앞으로 라이브러리는 계속 업데이트 될 예정입니다.
 

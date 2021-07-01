@@ -8,21 +8,21 @@ void InputData(char name[][MAX_NAME_LENGTH], int score[][PART_COUNT])
 {
 	for(i=0; i<MAX_STUDENT_COUNT; i++)
 	{
-		//¼®Â÷ ±¸ÇÏ±â ÃÊ±âÈ­
+		//ì„ì°¨ êµ¬í•˜ê¸° ì´ˆê¸°í™”
 		LANK[i]=1;
 
-		//¸î¹øÂ°ÇÐ»ý, Á¡¼öµéÀ» ÀÔ·Â¹Þ´Â ±¸°£
-		printf("%d ¹øÂ° ÇÐ»ý ÀÌ¸§ : ", i+1); 	scanf("%s", name+i);
-		printf("±¹¾î Á¡¼ö : ");				 	scanf("%d", score[i] + KOR);
-		printf("¿µ¾î Á¡¼ö : ");				 	scanf("%d", score[i] + ENG);
-		printf("¼öÇÐ Á¡¼ö : ");				 	scanf("%d", score[i] + MATH);
-		printf("°úÇÐ Á¡¼ö : "); 			 		scanf("%d", score[i] + SIENCE);
-		printf("À±¸® Á¡¼ö : "); 			 		scanf("%d", score[i] + ETHICS);
+		//ëª‡ë²ˆì§¸í•™ìƒ, ì ìˆ˜ë“¤ì„ ìž…ë ¥ë°›ëŠ” êµ¬ê°„
+		printf("%d ë²ˆì§¸ í•™ìƒ ì´ë¦„ : ", i+1); 	scanf("%s", name+i);
+		printf("êµ­ì–´ ì ìˆ˜ : ");				 	scanf("%d", score[i] + KOR);
+		printf("ì˜ì–´ ì ìˆ˜ : ");				 	scanf("%d", score[i] + ENG);
+		printf("ìˆ˜í•™ ì ìˆ˜ : ");				 	scanf("%d", score[i] + MATH);
+		printf("ê³¼í•™ ì ìˆ˜ : "); 			 		scanf("%d", score[i] + SIENCE);
+		printf("ìœ¤ë¦¬ ì ìˆ˜ : "); 			 		scanf("%d", score[i] + ETHICS);
 		printf("\n");
 		//ft_putchar('\n');
 	}
 
-	//ºÐ¸®ÇØ¼­ ¼öÁ¤ÇÏ±â ½±°Ô ÃÑÇÕ°ú Æò±ÕÀ» ±¸ÇÏ´Â ¹Ýº¹¹® ±¸Çö
+	//ë¶„ë¦¬í•´ì„œ ìˆ˜ì •í•˜ê¸° ì‰½ê²Œ ì´í•©ê³¼ í‰ê· ì„ êµ¬í•˜ëŠ” ë°˜ë³µë¬¸ êµ¬í˜„
 	for(i=0; i<MAX_STUDENT_COUNT; i++)
 	{		
 		TOTAL[i] = score[i][KOR] + score[i][ENG] + score[i][MATH] + score[i][SIENCE] + score[i][ETHICS];
@@ -31,14 +31,14 @@ void InputData(char name[][MAX_NAME_LENGTH], int score[][PART_COUNT])
 		AVERAGE[i] = TOTAL[i]/PART_COUNT;
 	}~
 
-	//¼®Â÷±¸ÇÏ±â ³»ÀåÇÔ¼ö
+	//ì„ì°¨êµ¬í•˜ê¸° ë‚´ìž¥í•¨ìˆ˜
 	Lank();
 }
 
 
 
 
-//¼®Â÷ ±¸ÇÏ±â
+//ì„ì°¨ êµ¬í•˜ê¸°
 void Lank()
 {
 	for(j=0; j<MAX_STUDENT_COUNT; j++)
@@ -53,52 +53,32 @@ void Lank()
 	}
 }
 
-//ÅØ½ºÆ® ÆÄÀÏ ºÒ·¯¿À±â ÇÔ¼ö
+//í…ìŠ¤íŠ¸ íŒŒì¼ ë¶ˆëŸ¬ì˜¤ê¸° í•¨ìˆ˜
 void Display_Result(char name[][MAX_NAME_LENGTH], int score[][PART_COUNT])
 {
-	fprintf(tfp,"%ÇÐ¹ø, ¼º¸í, ±¹¾î, ¿µ¾î, ¼öÇÐ, °úÇÐ, À±¸®, ÃÑÁ¡, Æò±Õ, ¼®Â÷\n");
+	fprintf(tfp,"%í•™ë²ˆ, ì„±ëª…, êµ­ì–´, ì˜ì–´, ìˆ˜í•™, ê³¼í•™, ìœ¤ë¦¬, ì´ì , í‰ê· , ì„ì°¨\n");
 
 	for(i=0; i<MAX_STUDENT_COUNT; i++){
-		fprintf(tfp,"%2d, %6s,  %3d,  %3d,  %3d,  %3d,  %3d,  %3d, %.2f,%3dµî\n",
+		fprintf(tfp,"%2d, %6s,  %3d,  %3d,  %3d,  %3d,  %3d,  %3d, %.2f,%3dë“±\n",
 				i+1, name[i], score[i][KOR], score[i][ENG], score[i][MATH], score[i][SIENCE],
 				score[i][ETHICS], TOTAL[i], AVERAGE[i], LANK[i]);
 	}
 	
 	Loop_Result(score);
-	
-	fprintf(tfp,"\n");
-	
-	fprintf(tfp, "ÃÑÁ¡ : %d\n", SSUM);
-	fprintf(tfp, "ÃÑ Æò±Õ : %2f\n", AVE);
-	
-	void Result_SSUM();
-	
-	fprintf(tfp,"ÃÑÁ¡ ºÐ»ê , %.3d,  ÃÑÁ¡ Ç¥ÁØ ÆíÂ÷ , %.3f\n", variance_SSUM, std_deviation_SSUM);
-	
 }
 
-//¿¢¼¿ÆÄÀÏ ºÒ·¯¿À±â ÇÔ¼ö
+//ì—‘ì…€íŒŒì¼ ë¶ˆëŸ¬ì˜¤ê¸° í•¨ìˆ˜
 void Result_scv(char name[][MAX_NAME_LENGTH], int score[][PART_COUNT])
 {
-	fprintf(fp,"ÇÐ¹ø, ¼º¸í, ±¹¾î, ¿µ¾î, ¼öÇÐ, °úÇÐ, À±¸®, ÃÑÁ¡, Æò±Õ, ¼®Â÷\n");
+	fprintf(fp,"í•™ë²ˆ, ì„±ëª…, êµ­ì–´, ì˜ì–´, ìˆ˜í•™, ê³¼í•™, ìœ¤ë¦¬, ì´ì , í‰ê· , ì„ì°¨\n");
 
 	for(i=0; i<MAX_STUDENT_COUNT; i++){
-		fprintf(fp,"%2d, %6s,  %3d,  %3d,  %3d,  %3d,  %3d,  %3d, %.2f,%3dµî\n",
+		fprintf(fp,"%2d, %6s,  %3d,  %3d,  %3d,  %3d,  %3d,  %3d, %.2f,%3dë“±\n",
 				i+1, name[i], score[i][KOR], score[i][ENG], score[i][MATH], score[i][SIENCE],
 				score[i][ETHICS], TOTAL[i], AVERAGE[i], LANK[i]);
 	}
 	
 	Loop_Result_2(score);
-	
-	fprintf(fp,"\n");
-		
-	fprintf(fp, "ÃÑÁ¡ : %d\n", SSUM);
-	fprintf(fp, "ÃÑ Æò±Õ : %2f\n", AVE);
-	
-	void Result_SSUM_2();
-	
-	fprintf(fp,"ÃÑÁ¡ ºÐ»ê , %.3d,  ÃÑÁ¡ Ç¥ÁØ ÆíÂ÷ , %.3f\n", variance_SSUM, std_deviation_SSUM);
-	
 }
 
 int main(int argc, char *argv[])
@@ -109,7 +89,7 @@ int main(int argc, char *argv[])
 	InputData(name, score);	
 	//Bubble_Sort(name, score);
 
-	//ÅØ½ºÆ® ÆÄÀÏ¿¡ ¾²±â À§ÇØ¼­ ¿­¾îÁØ´Ù.
+	//í…ìŠ¤íŠ¸ íŒŒì¼ì— ì“°ê¸° ìœ„í•´ì„œ ì—´ì–´ì¤€ë‹¤.
 	if((tfp=fopen("notepad.txt","wt")) == NULL)
 	{
 		printf("Text File open error\n");
@@ -121,7 +101,7 @@ int main(int argc, char *argv[])
 	Display_Result(name,score);
 	
 
-	//¿¢¼¿ ÆÄÀÏ¿¡ ¾²±â À§ÇØ¼­ ¿­¾îÁØ´Ù.
+	//ì—‘ì…€ íŒŒì¼ì— ì“°ê¸° ìœ„í•´ì„œ ì—´ì–´ì¤€ë‹¤.
 	if((fp=fopen("excell.csv","wt")) == NULL)
 	{
 		printf("File open error\n");
