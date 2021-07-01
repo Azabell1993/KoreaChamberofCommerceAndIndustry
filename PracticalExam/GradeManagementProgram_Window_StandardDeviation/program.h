@@ -3,7 +3,7 @@
 
 #define _CRT_SECURE_NO_WARININGS
 
-//¸®´ª½º¿ë Çì´õ
+//ë¦¬ëˆ…ìŠ¤ìš© í—¤ë”
 //#define C_NRML "\033[0m"
 //#define C_BLCK "\033[30m"
 //#define C_RED  "\033[31m"
@@ -18,7 +18,7 @@
 #include <string.h>
 #include <sys/types.h>
 #include <stdlib.h>
-#include <unistd.h> //¸®´ª½º¿ë Çì´õ
+#include <unistd.h> //ë¦¬ëˆ…ìŠ¤ìš© í—¤ë”
 #include <math.h> 
 
 #define MAX_STUDENT_COUNT 10
@@ -83,7 +83,7 @@ void Loop_Result(int score[][PART_COUNT])
 		variance = variance / PART_COUNT;
 		std_deviation = sqrt(variance);
 							  
-		fprintf(tfp,"%d¹øÂ° ºĞ»ê , %.3lf,  Ç¥ÁØ ÆíÂ÷ , %.3f\n",i+1, variance, std_deviation);
+		fprintf(tfp,"%dë²ˆì§¸ ë¶„ì‚° , %.3lf,  í‘œì¤€ í¸ì°¨ , %.3f\n",i+1, variance, std_deviation);
 	}
 }
 
@@ -103,27 +103,8 @@ void Loop_Result_2(int score[][PART_COUNT])
 		variance_2 = variance_2 / PART_COUNT;
 		std_deviation_2 = sqrt(variance);
 							  
-		printf(fp,"%d¹øÂ° ºĞ»ê , %.3lf,  Ç¥ÁØ ÆíÂ÷ , %.3f\n",i+1, variance_2, std_deviation_2);
+		printf(fp,"%dë²ˆì§¸ ë¶„ì‚° , %.3lf,  í‘œì¤€ í¸ì°¨ , %.3f\n",i+1, variance_2, std_deviation_2);
 	}
-}
-
-int variance_SSUM;
-int std_deviation_SSUM;
-
-void Result_SSUM()
-{
-	for(int i=0; i<MAX_STUDENT_COUNT; i++)
-	variance_SSUM = variance_SSUM + ((TOTAL[i] - AVE) * (TOTAL[i] - AVE));
-	variance_SSUM = variance_SSUM / MAX_STUDENT_COUNT;
-	std_deviation_SSUM=sqrt(variance_SSUM);
-}
-
-void Result_SSUM_2()
-{
-	for(int i=0; i<MAX_STUDENT_COUNT; i++)
-	variance_SSUM = variance_SSUM + ((TOTAL[i] - AVE) * (TOTAL[i] - AVE));
-	variance_SSUM = variance_SSUM / MAX_STUDENT_COUNT;
-	std_deviation_SSUM=sqrt(variance_SSUM);
 }
 
 
