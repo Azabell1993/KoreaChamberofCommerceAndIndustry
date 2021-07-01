@@ -65,13 +65,6 @@ void Display_Result(char name[][MAX_NAME_LENGTH], int score[][PART_COUNT])
 	}
 	
 	Loop_Result(score);
-	
-	fprintf(tfp,"\n");
-	
-	fprintf(tfp, "총점 : %d\n", SSUM);
-	fprintf(tfp, "총 평균 : %2f\n", AVE);
-	
-	
 }
 
 //엑셀파일 불러오기 함수
@@ -86,13 +79,6 @@ void Result_scv(char name[][MAX_NAME_LENGTH], int score[][PART_COUNT])
 	}
 	
 	Loop_Result_2(score);
-	
-	fprintf(fp,"\n");
-		
-	fprintf(fp, "총점 : %d\n", SSUM);
-	fprintf(fp, "총 평균 : %2f\n", AVE);
-	
-	
 }
 
 int main(int argc, char *argv[])
