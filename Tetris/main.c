@@ -53,9 +53,9 @@ void addscore(){
   f=fopen("toplist", "r");
 
   if(!(f=fopen("toplist", "r || w")) == '\0')
-	{
+  {
 		errExit(" File open Error \n");
-	}
+  }
 
   int num;
   int added = 0;
