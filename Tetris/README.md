@@ -71,3 +71,11 @@ include          main    main.o  move_down.h  move_right.h  Print_screen.h  READ
 ```c
 $ ./main
 ```  
+
+![gameplay](https://user-images.githubusercontent.com/75885992/125160434-5e50c000-e16c-11eb-959b-500337b16245.png)
+![gameinstallsh](https://user-images.githubusercontent.com/75885992/125160440-61e44700-e16c-11eb-81a4-4169aab04ede.png)
+![te1](https://user-images.githubusercontent.com/75885992/125160450-70caf980-e16c-11eb-87ce-5a5246e0e67e.png)
+![name](https://user-images.githubusercontent.com/75885992/125160452-745e8080-e16c-11eb-9a52-659fe1159449.png)
+![name2](https://user-images.githubusercontent.com/75885992/125160454-758fad80-e16c-11eb-9b4b-9ab9af841e15.png)
+![play](https://user-images.githubusercontent.com/75885992/125160457-7a546180-e16c-11eb-84b2-f4874b8295ad.png)
+
