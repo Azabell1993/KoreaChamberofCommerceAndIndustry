@@ -57,14 +57,14 @@ char right[HEIGHT][WIDTH] = {0};
 
 int fixedpoint[2] = {0};
 
-#define MOVL 'q'
-#define MOVR 'e'
+#define MOVL 'a'
+#define MOVR 'd'
 #define ROTA 'w'
-#define DROP 'a'
+#define DROP 's'
 #define RSET 'l'
 #define SNXT 'z'
 #define STXT 'c'
-#define EXT  'k'
+#define EXT  'e'
 #define TPLS 't'
 
 #define NEMO 'n'
