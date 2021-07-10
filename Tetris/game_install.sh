@@ -11,7 +11,7 @@
 
 start()
 {
-	printf "Mr/Mrs. : "
+	printf "Mr/Ms. : "
 	whoami
 	
 	whoami >> whoami.text
