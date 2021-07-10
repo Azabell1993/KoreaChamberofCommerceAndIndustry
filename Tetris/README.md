@@ -147,7 +147,11 @@ $ ./main
 
 ![run_sh](https://user-images.githubusercontent.com/75885992/125164130-38351b00-e180-11eb-9657-2b40f36035c3.png)  
 
+![ls](https://user-images.githubusercontent.com/75885992/125164168-6a467d00-e180-11eb-8f20-97a922662c0d.png)  
+
+
 ![te1](https://user-images.githubusercontent.com/75885992/125160450-70caf980-e16c-11eb-87ce-5a5246e0e67e.png)  
+
 
 ![gameplay](https://user-images.githubusercontent.com/75885992/125160434-5e50c000-e16c-11eb-959b-500337b16245.png)  
 
