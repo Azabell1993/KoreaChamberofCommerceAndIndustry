@@ -87,7 +87,7 @@ $ make
 ```c
 gcc -Wformat -W -Wextra -Werror -Wall -I ./include/    -c -o main.o main.c
 ar rc main 
-gcc -Wformat -W -Wextra -Werror -Wall -I ./include/  -o main main.o -lncurses
+gcc -Wformat -W -Wextra -Werror -Wall -I ./include/  -o main main.o -lncurses ./include/error_functions.o 
 main has been compiled. You can play the game through main.
 ```  
 
@@ -105,7 +105,7 @@ Running the Makefile
 gcc -c -o ./include/error_functions.o  ./include/error_functions.c
 gcc -Wformat -W -Wextra -Werror -Wall -I ./include/    -c -o main.o main.c
 ar rc main 
-gcc -Wformat -W -Wextra -Werror -Wall -I ./include/  -o main main.o -lncurses
+gcc -Wformat -W -Wextra -Werror -Wall -I ./include/  -o main main.o -lncurses ./include/error_functions.o
 main has been compiled. You can play the game through main.
 saved toplist
 
