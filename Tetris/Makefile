@@ -20,6 +20,7 @@ $(NAME): $(OBJ)
 
 clean:
 	$(RM) *.o *~ $(NAME)
+	rm -rf toplist
 #
 
 
