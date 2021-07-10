@@ -32,6 +32,8 @@ clean:
 #
 ```  
 
+**First Step**  
+
 
 ```c
 $ make fist
@@ -40,6 +42,9 @@ $ make fist
 ```c
 gcc -c -o ./include/error_functions.o  ./include/error_functions.c
 ```  
+
+
+**Second Step**
 
 ```c
 $ make
@@ -52,13 +57,16 @@ gcc -Wformat -W -Wextra -Werror -Wall -I ./include/  -o main main.o -lncurses
 main has been compiled. You can play the game through main.
 ```  
   
+**REsult**    
+
 ```c
 $ ls
 game_install.sh  logo.h  main.c  Makefile     move_left.h   move_rotate.h   program.h  settings.h
 include          main    main.o  move_down.h  move_right.h  Print_screen.h  README.md  toplist
 ```  
 
-play the main  
+**play the main** 
+  
 ```c
 $ ./main
 ```  
