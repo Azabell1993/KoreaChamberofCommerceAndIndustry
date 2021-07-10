@@ -1,4 +1,4 @@
-#
+
 CC=gcc
 CFLAGS= -Wformat -W -Wextra -Werror -Wall -I ./include/ 
 PATH_LIB= ./include/
@@ -19,7 +19,7 @@ $(NAME): $(OBJ)
 	
 
 clean:
-	$(RM) *.o *~ $(NAME)
+	$(RM) *.o *~ $(NAME) $(PATH_LIB)*.o
 	rm -rf toplist
 #
 
