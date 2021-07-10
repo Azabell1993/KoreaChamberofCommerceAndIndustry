@@ -136,7 +136,8 @@ logo.h           main.o  move_left.h  Print_screen.h  settings.h  whoami.text
 ```c
 $ ./main
 ```  
-![te2](https://user-images.githubusercontent.com/75885992/125164494-0329c800-e182-11eb-960d-d90a79985d33.png)  
+![program](https://user-images.githubusercontent.com/75885992/125165420-53a32480-e186-11eb-8c6f-593e9b64cd1f.png)  
+
 
 ![linux_console](https://user-images.githubusercontent.com/75885992/125164581-8f3bef80-e182-11eb-8fb4-4e58d1fead8c.png)  
 
