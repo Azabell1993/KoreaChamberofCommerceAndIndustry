@@ -21,9 +21,11 @@ $(NAME): $(OBJ)
 	ar rc $(NAME) $(OBJ) 
 	$(CC) $(CFLAGS) -o $(NAME) $(OBJ) $(LIBS)
 	
-
+	
 clean:
-	$(RM) *.o *~ $(NAME)
+	$(RM) *.o *~ $(NAME) $(PATH_LIB)*.o
+	rm -rf toplist
+
 #
 ```  
 
