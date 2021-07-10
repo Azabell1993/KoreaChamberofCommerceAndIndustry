@@ -98,7 +98,7 @@ $ ./game_install.sh
 ```  
 
 ```c
-Mr/Mrs. : (USER NAME)
+Mr/Ms. : (USER NAME)
 Hello! Nicd to meet you!
 
 Running the Makefile
