@@ -57,6 +57,7 @@ clean:
 ```  
 
 ***HOW TO PLAY THE GAME***  
+===============  
 
 **First Step**  
 
