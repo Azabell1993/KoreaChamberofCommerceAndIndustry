@@ -155,12 +155,4 @@ $ ./main
 
 ![gameplay](https://user-images.githubusercontent.com/75885992/125160434-5e50c000-e16c-11eb-959b-500337b16245.png)  
 
-![name](https://user-images.githubusercontent.com/75885992/125160452-745e8080-e16c-11eb-9a52-659fe1159449.png)  
-
-![name2](https://user-images.githubusercontent.com/75885992/125160454-758fad80-e16c-11eb-9b4b-9ab9af841e15.png)  
-
-![play](https://user-images.githubusercontent.com/75885992/125160457-7a546180-e16c-11eb-84b2-f4874b8295ad.png)  
-
-![gameover](https://user-images.githubusercontent.com/75885992/125160558-272ede80-e16d-11eb-86a0-81806845b2f5.png)  
-
 
