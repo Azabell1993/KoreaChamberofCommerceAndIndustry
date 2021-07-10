@@ -98,7 +98,7 @@ $ ./game_install.sh
 ```  
 
 ```c
-Mr/Mrs. : (USER NAME)
+Mr/Ms. : (USER NAME)
 Hello! Nicd to meet you!
 
 Running the Makefile
@@ -136,22 +136,21 @@ logo.h           main.o  move_left.h  Print_screen.h  settings.h  whoami.text
 ```c
 $ ./main
 ```  
+![te2](https://user-images.githubusercontent.com/75885992/125164494-0329c800-e182-11eb-960d-d90a79985d33.png)  
+
+![linux_console](https://user-images.githubusercontent.com/75885992/125164581-8f3bef80-e182-11eb-8fb4-4e58d1fead8c.png)  
 
 ![Tetris_Makefile](https://user-images.githubusercontent.com/75885992/125164061-ceb50c80-e17f-11eb-92d3-c21a53c136a7.png)  
 
-
-![installsh](https://user-images.githubusercontent.com/75885992/125161034-78d86880-e16f-11eb-9973-f0d976f8b85b.png)  
+![run_sh](https://user-images.githubusercontent.com/75885992/125164438-bcd46900-e181-11eb-9fb9-a9691929e282.png)  
 
 ![make_run](https://user-images.githubusercontent.com/75885992/125164127-323f3a00-e180-11eb-8028-6f603e2ef575.png)  
-
 
 ![run_sh](https://user-images.githubusercontent.com/75885992/125164130-38351b00-e180-11eb-9657-2b40f36035c3.png)  
 
 ![ls](https://user-images.githubusercontent.com/75885992/125164168-6a467d00-e180-11eb-8f20-97a922662c0d.png)  
 
-
 ![te1](https://user-images.githubusercontent.com/75885992/125160450-70caf980-e16c-11eb-87ce-5a5246e0e67e.png)  
-
 
 ![gameplay](https://user-images.githubusercontent.com/75885992/125160434-5e50c000-e16c-11eb-959b-500337b16245.png)  
 
