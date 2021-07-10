@@ -1,13 +1,13 @@
 # Tetris
 
 **File Tree**  
-|--*include**  
-|   |-- ename.c.inc  
-|   |-- error_functions.c  
-|   |-- error_functions.h  
-|   |-- get_num.c  
-|   |-- get_num.h  
-|   |-- tlpi_hdr.h  
+|--*include*  
+|	|-- ename.c.inc  
+|	|-- error_functions.c  
+|	|-- error_functions.h  
+|	|-- get_num.c  
+|	|-- get_num.h  
+|	|-- tlpi_hdr.h  
 |-- game_install.sh   
 |-- logo.h  
 |-- Makefile
