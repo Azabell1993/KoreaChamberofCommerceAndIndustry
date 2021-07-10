@@ -27,9 +27,9 @@
 #include <termios.h>
 #include <stdbool.h>
 
-#include "error_functions.h"
-#include "get_num.h"
-#include "tlpi_hdr.h"
+#include "include/error_functions.h"
+#include "include/get_num.h"
+#include "include/tlpi_hdr.h"
 
 
 #define WIDTH 	25
@@ -115,13 +115,16 @@ void init();
 void updatelevel();
 void setkeybint();
 int game();
+int Enter;
+
+void show_logo();
 
 
 void concept_1();
 void concept_2();
 void concept_3();
 void concept_4();
-int  Key_settingi();
+int  Key_setting();
 
 struct timeval t1, t2;
 

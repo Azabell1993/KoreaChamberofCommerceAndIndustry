@@ -1,44 +1,27 @@
 #
 CC=gcc
-
-CFLAGS=-Wall -pedantic -g
-
-INCLUDES=
-
-LFLAGS=
-
+CFLAGS= -Wformat -W -Wextra -Werror -Wall -I ./include/ 
+PATH_LIB= ./include/
+SRCS = main.c
 LIBS=-lncurses
+OBJ = main.o \
+	  $(PATH_LIB)error_functions.o
 
-SRCS=tetris.c
-
-OBJS=$(SRCS:.c=.o)
-
-NAME=tetris
+COMPILE = compile
+NAME= main
 
 .PHONY: depend clean
 
 all: $(NAME)
-	@echo  $(NAME) has been compiled.
+	@echo  '$(NAME)' has been compiled. You can play the game through '$(NAME)'. 
 
-$(NAME): $(OBJS)
-	$(CC) $(CFLAGS) $(INCLUDES) -o $(NAME) $(OBJS) $(LFLAGS) $(LIBS)
-
-.c.o:
-	$(CC) $(CFLAGS) $(INCLUDES) -c $<  -o $@
-
-compile_exe : tetris.o error_functions.o
-	gcc -o compile_exe tetris.o error_functions.o
-
-error_functions.o : error_functions.c
-	gcc -c -o error_functions.o error_functions.c
-
-tetris.o : tetris.c
-	gcc -c -o tetris.o tetris.c
+$(NAME): $(OBJ)
+	ar rc $(NAME) $(OBJ) 
+	$(CC) $(CFLAGS) -o $(NAME) $(OBJ) $(LIBS)
+	
 
 clean:
 	$(RM) *.o *~ $(NAME)
-
-depend: $(SRCS)
-	makedepend $(INCLUDES) $^
-
 #
+
+

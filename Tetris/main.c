@@ -1,4 +1,3 @@
-
 #include "program.h"
 
 /* console function list header */
@@ -7,6 +6,7 @@
 #include "move_left.h"
 #include "move_rotate.h"
 #include "Print_screen.h"
+#include "logo.h"
 
 void toplist(){
   
@@ -88,7 +88,9 @@ int gameover(){
                     "                         \0"
                     "                         \0"
 					"                         \0"
-                    "                         \0", WIDTH*5);
+                    "                         \0"
+					"                         \0"
+					"                         \0", WIDTH*7);
   
 
   memcpy(center[16], "    : QUIT    : RESET   \0"
@@ -297,6 +299,8 @@ int game()
 {
   nodelay(stdscr, FALSE);
 
+
+
   init();
 
   setkeybind();
@@ -311,9 +315,19 @@ int game()
   clrlines = 0;
 
   memcpy(left[3]+10, name, strlen(name));
-  printw("\n\n\n       Press any key to start\n");
+  
+  do {
+	  clear();
+	  show_logo_2();
+	  refresh();
+	  Enter = linux_console();
+	} while(Enter == '\n');
 
-  refresh();
+
+ 	  printw("            Nice to meet you! \n");
+  	  printw("\n           press enter key \n");
+
+	  refresh();
   getch();
   updatescore();
   updatelevel();
@@ -327,7 +341,7 @@ int game()
     switch(getch()){
       case DROP:
         if(movedown()) continue;
-        ++dropped * 1000;
+        ++dropped;
         updatescrn();
         continue;
 
@@ -399,6 +413,8 @@ int game()
 
 int main(void)
 {
+
+
   name=malloc(sizeof *name * 14);
   srand(time(NULL));
 
@@ -409,6 +425,15 @@ int main(void)
   init_pair(1, COLOR_GREEN, COLOR_BLACK);
   init_pair(2, COLOR_RED, COLOR_BLACK);
   attron(COLOR_PAIR(1));
+
+
+  do {
+	  clear();
+	  show_logo();
+	  refresh();
+	  Enter = linux_console();
+  } while(Enter == '\n');
+
 
   do{
     clear();
