@@ -1,11 +1,13 @@
-
+#
 CC=gcc
 CFLAGS= -Wformat -W -Wextra -Werror -Wall -I ./include/ 
+COMPILE = $(CC) $(CFLAGS)
 PATH_LIB= ./include/
 SRCS = main.c
 LIBS=-lncurses
-OBJ = main.o \
-	  $(PATH_LIB)error_functions.o
+MOBJ= main.o
+OBJ = $(PATH_LIB)error_functions.o 
+ER= $(PATH_LIB)error_functions.c
 NAME= main
 
 .PHONY: depend clean
@@ -13,10 +15,12 @@ NAME= main
 all: $(NAME)
 	@echo  '$(NAME)' has been compiled. You can play the game through '$(NAME)'. 
 
-$(NAME): $(OBJ)
-	ar rc $(NAME) $(OBJ) 
-	$(CC) $(CFLAGS) -o $(NAME) $(OBJ) $(LIBS)
-	
+first: 
+	$(CC) -c -o $(OBJ) $(ER)
+
+$(NAME): $(MOBJ)
+	ar rc $(NAME) 
+	$(CC) $(CFLAGS) -o $(NAME) $(MOBJ) $(LIBS)
 
 clean:
 	$(RM) *.o *~ $(NAME) $(PATH_LIB)*.o
