@@ -142,10 +142,10 @@ $ ./main
 
 ![installsh](https://user-images.githubusercontent.com/75885992/125161034-78d86880-e16f-11eb-9973-f0d976f8b85b.png)  
 
+![make_run](https://user-images.githubusercontent.com/75885992/125164127-323f3a00-e180-11eb-8028-6f603e2ef575.png)  
 
-![make step](https://user-images.githubusercontent.com/75885992/125160990-4dee1480-e16f-11eb-81de-3acacf2d3b91.png)  
 
-![gameinstallsh](https://user-images.githubusercontent.com/75885992/125160440-61e44700-e16c-11eb-81a4-4169aab04ede.png)  
+![run_sh](https://user-images.githubusercontent.com/75885992/125164130-38351b00-e180-11eb-9657-2b40f36035c3.png)  
 
 ![te1](https://user-images.githubusercontent.com/75885992/125160450-70caf980-e16c-11eb-87ce-5a5246e0e67e.png)  
 
