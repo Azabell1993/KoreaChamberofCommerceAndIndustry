@@ -138,6 +138,9 @@ $ ./main
 ```  
 ![program](https://user-images.githubusercontent.com/75885992/125165420-53a32480-e186-11eb-8c6f-593e9b64cd1f.png)  
 
+![NULL](https://user-images.githubusercontent.com/75885992/125165668-7550db80-e187-11eb-892e-b155e79d3b17.png)  
+
+
 
 ![linux_console](https://user-images.githubusercontent.com/75885992/125164581-8f3bef80-e182-11eb-8fb4-4e58d1fead8c.png)  
 
