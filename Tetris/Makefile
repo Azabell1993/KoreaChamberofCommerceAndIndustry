@@ -6,8 +6,6 @@ SRCS = main.c
 LIBS=-lncurses
 OBJ = main.o \
 	  $(PATH_LIB)error_functions.o
-
-COMPILE = compile
 NAME= main
 
 .PHONY: depend clean
