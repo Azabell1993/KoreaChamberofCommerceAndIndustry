@@ -1,6 +1,7 @@
 # Tetris
 
-Makefile
+**Makefile**  
+  
 ```c
 #
 CC=gcc
@@ -57,7 +58,7 @@ gcc -Wformat -W -Wextra -Werror -Wall -I ./include/  -o main main.o -lncurses
 main has been compiled. You can play the game through main.
 ```  
   
-**REsult**    
+**Result**    
 
 ```c
 $ ls
