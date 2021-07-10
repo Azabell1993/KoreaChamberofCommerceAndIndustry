@@ -21,7 +21,14 @@
 |-- program.h  
 |-- settings.h  
 
+**Where is the use at 'include' folder**  
 
+```c
+  if(!(f=fopen("toplist", "r")) == '\0')
+  {
+	  errExit(" File open Error \n");
+  }  
+```  
 
 ***Makefile***  
   
