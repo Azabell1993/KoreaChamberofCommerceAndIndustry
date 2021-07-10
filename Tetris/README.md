@@ -71,6 +71,10 @@ include          main    main.o  move_down.h  move_right.h  Print_screen.h  READ
 ```c
 $ ./main
 ```  
+
+![Makefile](https://user-images.githubusercontent.com/75885992/125160513-d919db00-e16c-11eb-921e-aec33c422b9d.png)
+
+
 ![gameinstallsh](https://user-images.githubusercontent.com/75885992/125160440-61e44700-e16c-11eb-81a4-4169aab04ede.png)  
 
 ![te1](https://user-images.githubusercontent.com/75885992/125160450-70caf980-e16c-11eb-87ce-5a5246e0e67e.png)  
