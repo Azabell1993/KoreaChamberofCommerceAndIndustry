@@ -77,6 +77,13 @@ gcc -c -o ./include/error_functions.o  ./include/error_functions.c
 $ make
 ```  
 
+```c
+gcc -Wformat -W -Wextra -Werror -Wall -I ./include/    -c -o main.o main.c
+ar rc main 
+gcc -Wformat -W -Wextra -Werror -Wall -I ./include/  -o main main.o -lncurses
+main has been compiled. You can play the game through main.
+```  
+
 **Or play the game with an automated system**  
 
 ```c
@@ -84,11 +91,24 @@ $ ./game_install.sh
 ```  
 
 ```c
+Mr/Mrs. : (USER NAME)
+Hello! Nicd to meet you!
+
+Running the Makefile
+gcc -c -o ./include/error_functions.o  ./include/error_functions.c
 gcc -Wformat -W -Wextra -Werror -Wall -I ./include/    -c -o main.o main.c
 ar rc main 
 gcc -Wformat -W -Wextra -Werror -Wall -I ./include/  -o main main.o -lncurses
 main has been compiled. You can play the game through main.
+saved toplist
+
+latest estimate User : (USER NAME)
+(SHOW THE FILE)
+ 
+Open the toplist log
+(SHOW THE FILE)
 ```  
+
   
 **Result**    
 
