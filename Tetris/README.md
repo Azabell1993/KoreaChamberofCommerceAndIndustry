@@ -1,3 +1,4 @@
+![te2](https://user-images.githubusercontent.com/75885992/125164490-f907c980-e181-11eb-9a7f-f6b8d1910edd.png)
 # **Tetris Game Program**  
 
 ***File Tree***  
@@ -136,6 +137,7 @@ logo.h           main.o  move_left.h  Print_screen.h  settings.h  whoami.text
 ```c
 $ ./main
 ```  
+![te2](https://user-images.githubusercontent.com/75885992/125164494-0329c800-e182-11eb-960d-d90a79985d33.png)  
 
 ![Tetris_Makefile](https://user-images.githubusercontent.com/75885992/125164061-ceb50c80-e17f-11eb-92d3-c21a53c136a7.png)  
 
