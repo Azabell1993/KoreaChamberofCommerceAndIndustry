@@ -23,7 +23,7 @@
 
 
 
-**Makefile**  
+***Makefile***  
   
 ```c
 #
@@ -55,6 +55,8 @@ clean:
 	rm -rf toplist
 #
 ```  
+
+***HOW TO PLAY THE GAME***  
 
 **First Step**  
 
