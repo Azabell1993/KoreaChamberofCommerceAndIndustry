@@ -111,11 +111,17 @@ Open the toplist log
 
   
 **Result**    
-
+(make first, make stap)  
 ```c
 $ ls
 game_install.sh  logo.h  main.c  Makefile     move_left.h   move_rotate.h   program.h  settings.h
 include          main    main.o  move_down.h  move_right.h  Print_screen.h  README.md  toplist
+```  
+(sh step)  
+```c
+game_install.sh  main    Makefile     move_right.h    program.h   toplist_saevd.text
+include          main.c  move_down.h  move_rotate.h   README.md   whoami_saved.text
+logo.h           main.o  move_left.h  Print_screen.h  settings.h  whoami.text
 ```  
 
 **play the main** 
