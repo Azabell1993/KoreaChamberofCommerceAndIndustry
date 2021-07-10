@@ -12,12 +12,12 @@
 |///////|-- tlpi_hdr.h  
 |-- game_install.sh   
 |-- logo.h  
-|-- Makefile
+|-- Makefile  
 |-- move_down.h  
 |-- move_left.h  
 |-- move_right.h  
 |-- move_rotate.h  
-|-- Print_screen.h
+|-- Print_screen.h  
 |-- program.h  
 |-- settings.h  
 
