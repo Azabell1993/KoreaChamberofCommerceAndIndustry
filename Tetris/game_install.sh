@@ -11,10 +11,34 @@
 
 start()
 {
+	printf "Mr/Mrs. : "
+	whoami
+	
+	whoami >> whoami.text
+	echo "Hello! Nicd to meet you!"
+	cat whoami.text >> whoami_saved.text
 
+	printf "\n"
+	echo "Running the Makefile"
+	make first
 	make
+}
 
+catch_toplist()
+{
+	echo "saved toplist"
 
+	printf "\n"
+	printf "latest estimate User : "
+	cat whoami.text
+
+	printf "\n"
+
+	cat toplist >> toplist_saevd.text
+
+	echo "Open the toplist log"
+	cat toplist_saevd.text 
 }
 
 start
+catch_toplist
