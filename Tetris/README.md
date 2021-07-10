@@ -137,7 +137,8 @@ logo.h           main.o  move_left.h  Print_screen.h  settings.h  whoami.text
 $ ./main
 ```  
 
-![Makefile](https://user-images.githubusercontent.com/75885992/125160513-d919db00-e16c-11eb-921e-aec33c422b9d.png)  
+![Tetris_Makefile](https://user-images.githubusercontent.com/75885992/125164061-ceb50c80-e17f-11eb-92d3-c21a53c136a7.png)  
+
 
 ![installsh](https://user-images.githubusercontent.com/75885992/125161034-78d86880-e16f-11eb-9973-f0d976f8b85b.png)  
 
