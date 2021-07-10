@@ -130,8 +130,9 @@ logo.h           main.o  move_left.h  Print_screen.h  settings.h  whoami.text
 $ ./main
 ```  
 
-![Makefile](https://user-images.githubusercontent.com/75885992/125160513-d919db00-e16c-11eb-921e-aec33c422b9d.png)
+![Makefile](https://user-images.githubusercontent.com/75885992/125160513-d919db00-e16c-11eb-921e-aec33c422b9d.png)  
 
+![make step](https://user-images.githubusercontent.com/75885992/125160990-4dee1480-e16f-11eb-81de-3acacf2d3b91.png)  
 
 ![gameinstallsh](https://user-images.githubusercontent.com/75885992/125160440-61e44700-e16c-11eb-81a4-4169aab04ede.png)  
 
