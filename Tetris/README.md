@@ -55,7 +55,7 @@ first:
 
 $(NAME): $(MOBJ)
 	ar rc $(NAME) 
-	$(CC) $(CFLAGS) -o $(NAME) $(MOBJ) $(LIBS)
+	$(CC) $(CFLAGS) -o $(NAME) $(MOBJ) $(LIBS) $(OBJ)
 
 clean:
 	$(RM) *.o *~ $(NAME) $(PATH_LIB)*.o
