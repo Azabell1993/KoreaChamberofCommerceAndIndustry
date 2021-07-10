@@ -139,8 +139,8 @@ $ ./main
 
 ![Tetris_Makefile](https://user-images.githubusercontent.com/75885992/125164061-ceb50c80-e17f-11eb-92d3-c21a53c136a7.png)  
 
+![run_sh](https://user-images.githubusercontent.com/75885992/125164438-bcd46900-e181-11eb-9fb9-a9691929e282.png)  
 
-![installsh](https://user-images.githubusercontent.com/75885992/125161034-78d86880-e16f-11eb-9973-f0d976f8b85b.png)  
 
 ![make_run](https://user-images.githubusercontent.com/75885992/125164127-323f3a00-e180-11eb-8028-6f603e2ef575.png)  
 
