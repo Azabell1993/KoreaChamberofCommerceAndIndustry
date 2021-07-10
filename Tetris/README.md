@@ -77,6 +77,12 @@ gcc -c -o ./include/error_functions.o  ./include/error_functions.c
 $ make
 ```  
 
+**Or play the game with an automated system**  
+
+```c
+$ ./game_install.sh
+```  
+
 ```c
 gcc -Wformat -W -Wextra -Werror -Wall -I ./include/    -c -o main.o main.c
 ar rc main 
