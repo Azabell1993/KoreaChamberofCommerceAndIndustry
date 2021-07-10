@@ -1,4 +1,3 @@
-![te2](https://user-images.githubusercontent.com/75885992/125164490-f907c980-e181-11eb-9a7f-f6b8d1910edd.png)
 # **Tetris Game Program**  
 
 ***File Tree***  
