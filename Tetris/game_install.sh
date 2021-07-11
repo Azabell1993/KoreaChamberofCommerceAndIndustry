@@ -15,7 +15,7 @@ start()
 	whoami
 	
 	whoami >> whoami.text
-	echo "Hello! Nicd to meet you!"
+	echo "Hello! Nice to meet you!"
 	cat whoami.text >> whoami_saved.text
 
 	printf "\n"
