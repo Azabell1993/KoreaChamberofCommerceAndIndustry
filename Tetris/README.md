@@ -136,12 +136,18 @@ logo.h           main.o  move_left.h  Print_screen.h  settings.h  whoami.text
 ```c
 $ ./main
 ```  
+
+(Program.h)
+=========================================
 ![program](https://user-images.githubusercontent.com/75885992/125165420-53a32480-e186-11eb-8c6f-593e9b64cd1f.png)  
 
 (Before putting "$(OBJ)" in "Makefile")
 =========================================
 
 ![NULL](https://user-images.githubusercontent.com/75885992/125165668-7550db80-e187-11eb-892e-b155e79d3b17.png)  
+
+(ETC / screencapture)
+=========================================
 
 ![gameins](https://user-images.githubusercontent.com/75885992/125180315-18394200-e1e8-11eb-9284-28a172f08262.png)  
 
