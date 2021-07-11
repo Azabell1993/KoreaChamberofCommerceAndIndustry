@@ -149,14 +149,14 @@ $ ./main
 (ETC / screencapture)
 =========================================
 
-![gameins](https://user-images.githubusercontent.com/75885992/125180315-18394200-e1e8-11eb-9284-28a172f08262.png)  
-
 
 ![linux_console](https://user-images.githubusercontent.com/75885992/125164581-8f3bef80-e182-11eb-8fb4-4e58d1fead8c.png)  
 
 ![Tetris_Makefile](https://user-images.githubusercontent.com/75885992/125164061-ceb50c80-e17f-11eb-92d3-c21a53c136a7.png)  
 
 ![make_run](https://user-images.githubusercontent.com/75885992/125164127-323f3a00-e180-11eb-8028-6f603e2ef575.png)  
+
+![gameins](https://user-images.githubusercontent.com/75885992/125180315-18394200-e1e8-11eb-9284-28a172f08262.png)  
 
 ![run_sh](https://user-images.githubusercontent.com/75885992/125164438-bcd46900-e181-11eb-9fb9-a9691929e282.png)  
 
