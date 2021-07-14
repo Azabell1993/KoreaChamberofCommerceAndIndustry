@@ -2,6 +2,7 @@
 
 **대한상공회의소**  
 (2021년 5월 28일 입학)
+(2021년 7월 19일 퇴)
   
 - HostnameIpSh : Shell Script 기초 구현 연습
 - InstallArduinoUnoScriptFile_Linux : Linux에서의 프로그래밍을 위한 설치, 디렉토리 자동화 구현 자료  
