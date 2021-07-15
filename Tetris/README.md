@@ -3,23 +3,28 @@
 ***File Tree***  
 ===============  
 
-|/////// **include**  
-|///////|-- ename.c.inc  
-|///////|-- error_functions.c  
-|///////|-- error_functions.h  
-|///////|-- get_num.c  
-|///////|-- get_num.h  
-|///////|-- tlpi_hdr.h  
-|-- game_install.sh   
-|-- logo.h  
-|-- Makefile  
-|-- move_down.h  
-|-- move_left.h  
-|-- move_right.h  
-|-- move_rotate.h  
-|-- Print_screen.h  
-|-- program.h  
-|-- settings.h  
+```c
+.
+├── game_install.sh   
+├── include
+│   ├── ename.c.inc
+│   ├── error_functions.c
+│   ├── error_functions.h
+│   ├── get_num.c
+│   ├── get_num.h
+│   └── tlpi_hdr.h
+├── logo.h
+├── main.c
+├── Makefile
+├── move_down.h
+├── move_left.h
+├── move_right.h
+├── move_rotate.h
+├── Print_screen.h
+├── program.h
+├── README.md
+└── settings.h  
+```  
 
 **Where is the use at 'include' folder**  
 
