@@ -1,8 +1,7 @@
 # KoreaChamberofCommerceAndIndustry
 
 **대한상공회의소**  
-(2021년 5월 28일 입학)
-(2021년 7월 19일 퇴)
+약 1달 반동안 있으면서 개인적으로 만든 것들
   
 - HostnameIpSh : Shell Script 기초 구현 연습
 - InstallArduinoUnoScriptFile_Linux : Linux에서의 프로그래밍을 위한 설치, 디렉토리 자동화 구현 자료  
